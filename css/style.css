@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(57, 71, 175);
+}
+
+.navbar {
+    background-color: #fff;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar a {
+    color: #000;
+    margin-right: 45px;
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins;
+    transition: all 0.2s ease-in-out;
+    letter-spacing: 1px;
+}
+.navbar a:hover {
+   transform: scale(0.9);
+   transition: all 0.2s ease-in-out;
+}
+
+.alinhar-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imagem {
+    width: 250px;
+    margin-right: 100px;
+    margin-top: 150px;
+}
+
+.apresentacao h1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+    font-family: Poppins;
+    margin-top: 150px;
+}
+
+.apresentacao h2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+    font-family: Poppins;
+    margin-top: 20px;
+}
+
+.apresentacao p {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+    font-family: Poppins;
+    width: 680px;
+    margin-top: 20px;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+
+.apresentacao button {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+    font-family: Poppins;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #f47c2c;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+}
+
+.projeto h2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+    font-family: Poppins;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.div-cartao {
+    display: flex;
+    flex-direction: row;
+}
+
+.div-cartao-alinhamento {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.cartao-1 {
+    border-radius: 20px;
+    box-shadow: 0 0 0.2em #000;
+    height: 400px;
+    width: 620px;
+    transition: all 0.5s ease-out;
+    color: aliceblue;
+    text-align: center;
+    transform: scale(0.9);
+    background-image: url(/img/img1.png);
+    background-size: 620px;
+    background-repeat: no-repeat;
+}
+
+.cartao-2 {
+    border-radius: 20px;
+    box-shadow: 0 0 0.2em #000;
+    height: 400px;
+    width: 620px;
+    transition: all 0.5s ease-out;
+    color: aliceblue;
+    text-align: center;
+    transform: scale(0.9);
+    background-image: url(/img/img2.png);
+    background-size: 620px;
+    background-repeat: no-repeat;
+}
+
+.cartao-3 {
+    border-radius: 20px;
+    box-shadow: 0 0 0.2em #000;
+    height: 400px;
+    width: 620px;
+    transition: all 0.5s ease-out;
+    color: aliceblue;
+    text-align: center;
+    transform: scale(0.9);
+    background-image: url(/img/img3.png);
+    background-size: 620px;
+    background-repeat: no-repeat;
+}
+
+.cartao-4 {
+    border-radius: 20px;
+    box-shadow: 0 0 0.2em #000;
+    height: 400px;
+    width: 620px;
+    transition: all 0.5s ease-out;
+    color: aliceblue;
+    text-align: center;
+    transform: scale(0.9);
+    background-image: url(/img/img4.png);
+    background-size: 620px;
+    background-repeat: no-repeat;
+}
+
+.texto-projeto {
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 620px;
+    border-radius: 0 0 20px 20px;
+    height: 100px;
+}
+
+.texto-projeto h2 {
+   font-family: Poppins;
+   font-size: 20px;
+   color: #000;
+   margin-left: 50px;
+}
+
+.texto-projeto p {
+   font-family: Poppins;
+   font-size: 15px;
+   font-weight: 500;
+   color: #000;
+   margin: 0;
+}
