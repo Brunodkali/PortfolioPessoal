@@ -14,6 +14,12 @@
     background-color: rgb(57, 71, 175);
 }
 
+.conteudo-3{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
 .navbar {
     background-color: #fff;
     height: 50px;
@@ -190,4 +196,83 @@
    font-weight: 500;
    color: #000;
    margin: 0;
+}
+
+.skills {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.titulo-skills{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+.progress-bar-container:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.progress-bar-container h2 {
+    font-family: Poppins;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.progress-bar {
+    width: 800px;
+    height: 5px;
+    margin-top: 10px;
+    border: 1px solid #565656;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(57, 71, 175);
+}
+
+.percentage {
+    display: block;
+    height: 100%;
+    background-color: rgb(57, 71, 175);
+    border-radius: 5px;
+    animation: progress 2000ms ease-in 1;
+}
+
+.c {
+    width: 45%;
+}
+
+.bootstrap {
+    width: 70%;
+}
+
+.nodejs {
+    width: 48%;
+}
+
+.reactjs {
+    width: 53%;
+}
+
+.css {
+    width: 75%;
+}
+
+.javascript {
+    width: 60%;
+}
+
+.php {
+    width: 55%;
+}
+
+@keyframes progress {
+    from {
+        width: 0;
+    }
 }
