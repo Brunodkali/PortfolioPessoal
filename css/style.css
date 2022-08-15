@@ -44,14 +44,14 @@
 
 .imagem {
     width: 250px;
-    margin-right: 100px;
+    margin-right: 150px;
     margin-top: 150px;
 }
 
 .apresentacao h1 {
     display: flex;
     justify-content: flex-start;
-    margin-left: 100px;
+    margin-left: 150px;
     font-family: Poppins;
     margin-top: 150px;
 }
@@ -59,7 +59,7 @@
 .apresentacao h2 {
     display: flex;
     justify-content: flex-start;
-    margin-left: 100px;
+    margin-left: 150px;
     font-family: Poppins;
     margin-top: 20px;
 }
@@ -67,7 +67,7 @@
 .apresentacao p {
     display: flex;
     justify-content: flex-start;
-    margin-left: 100px;
+    margin-left: 150px;
     font-family: Poppins;
     width: 680px;
     margin-top: 20px;
@@ -90,11 +90,11 @@
 
 .projeto h2 {
     display: flex;
-    justify-content: flex-start;
-    margin-left: 100px;
+    justify-content: center;
     font-family: Poppins;
     font-weight: 500;
     margin-top: 20px;
+    margin-bottom: 20px;
     color: #fff;
     letter-spacing: 1px;
 }
@@ -106,7 +106,7 @@
 
 .div-cartao-alinhamento {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-right: 50px;
     margin-left: 50px;
