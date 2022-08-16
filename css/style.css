@@ -94,7 +94,11 @@
     text-align: center;
 }
 
-.projeto h2 {
+.projeto {
+    margin-bottom: 40px;
+}
+
+.projeto h1 {
     display: flex;
     justify-content: center;
     font-family: Poppins;
@@ -103,6 +107,21 @@
     margin-bottom: 20px;
     color: #fff;
     letter-spacing: 1px;
+}
+
+.projeto a {
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.projeto a:hover {
+    text-decoration: underline;
 }
 
 .div-cartao {
@@ -174,6 +193,34 @@
     background-repeat: no-repeat;
 }
 
+.cartao-5 {
+    border-radius: 20px;
+    box-shadow: 0 0 0.2em #000;
+    height: 400px;
+    width: 620px;
+    transition: all 0.5s ease-out;
+    color: aliceblue;
+    text-align: center;
+    transform: scale(0.9);
+    background-image: url(/img/img5.png);
+    background-size: 620px;
+    background-repeat: no-repeat;
+}
+
+.cartao-6 {
+    border-radius: 20px;
+    box-shadow: 0 0 0.2em #000;
+    height: 400px;
+    width: 620px;
+    transition: all 0.5s ease-out;
+    color: aliceblue;
+    text-align: center;
+    transform: scale(0.9);
+    background-image: url(/img/img6.png);
+    background-size: 620px;
+    background-repeat: no-repeat;
+}
+
 .texto-projeto {
     background: #fff;
     position: fixed;
@@ -183,11 +230,12 @@
     height: 100px;
 }
 
-.texto-projeto h1 {
+.texto-projeto > h2 {
    font-family: Poppins;
-   font-size: 20px;
+   font-size: 25px;
    color: #000;
-   margin-left: 50px;
+   text-align: center;
+   margin-top: 30px;
 }
 
 .texto-projeto p {
@@ -240,19 +288,19 @@
     height: 100%;
     background-color: rgb(57, 71, 175);
     border-radius: 5px;
-    animation: progress 2000ms ease-in 1;
+    animation: progress 2000ms ease-in;
 }
 
 .c {
-    width: 45%;
+    width: 50%;
 }
 
 .bootstrap {
-    width: 70%;
+    width: 50%;
 }
 
 .nodejs {
-    width: 48%;
+    width: 40%;
 }
 
 .reactjs {
@@ -260,7 +308,7 @@
 }
 
 .css {
-    width: 75%;
+    width: 85%;
 }
 
 .javascript {
@@ -268,8 +316,9 @@
 }
 
 .php {
-    width: 55%;
+    width: 35%;
 }
+
 
 @keyframes progress {
     from {
@@ -277,17 +326,110 @@
     }
 }
 
-@media screen and (max-width: 900px) {
-    .projeto h1{
+/* Footer */
+
+.padding-64{
+    width: 100%;
+    text-align: center;
+}
+
+.footer-color {
+    background-color: transparent;
+    color: #000;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+.footer-color a {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+    font-family: poppins;
+}
+
+.footer-color a:hover {
+    text-decoration: underline;
+}
+
+.icones-content-1 {
+    text-align: center;
+    padding-top: 10px;
+    color: #000;
+    font-size: 25px;
+    letter-spacing: 35px;
+    text-decoration: none;
+}
+
+.icones-content-1 a {
+    color: #000;
+}
+
+.hover-opacity:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.copy-footer {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 1024px) {
+    .navbar {
+        background-color: #fff;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .navbar a {
+        margin-top: 25px;
+        font-size: 16px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
+    .imagem {
+        display: none;
+    }
+
+    .apresentacao h1 {
         display: flex;
         justify-content: flex-start;
+        font-family: Poppins;
+        margin-top: 100px;
+        font-size: 28px;
+        margin-left: 20px;
+    }
+    
+    .apresentacao h2 {
+        display: flex;
+        justify-content: flex-start;
+        font-family: Poppins;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 23px;
+    }
+    
+    .apresentacao p {
+        display: flex;
+        justify-content: flex-start;
+        font-family: Poppins;
+        width: 330px;
+        margin-top: 20px;
+        text-align: justify;
+        margin-bottom: 100px;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .projeto h1{
+        display: flex;
+        justify-content: center;
         font-family: Poppins;
         font-weight: 500;
         margin-top: 20px;
         margin-bottom: 20px;
         color: #fff;
         letter-spacing: 1px;
-        margin-left: 90px;
         font-size: 20px;
     }
     
@@ -298,7 +440,7 @@
     
     .div-cartao-alinhamento {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         flex-wrap: wrap;
         margin: 0;
     }
@@ -357,7 +499,34 @@
         background-image: url(/img/img4.png);
         background-size: 310px;
         background-repeat: no-repeat;
-        margin-bottom: 30px;
+    }
+
+    .cartao-5 {
+        border-radius: 20px;
+        box-shadow: 0 0 0.2em #000;
+        height: 250px;
+        width: 310px;
+        transition: all 0.5s ease-out;
+        color: aliceblue;
+        text-align: center;
+        transform: scale(0.9);
+        background-image: url(/img/img5.png);
+        background-size: 310px;
+        background-repeat: no-repeat;
+    }
+
+    .cartao-6 {
+        border-radius: 20px;
+        box-shadow: 0 0 0.2em #000;
+        height: 250px;
+        width: 310px;
+        transition: all 0.5s ease-out;
+        color: aliceblue;
+        text-align: center;
+        transform: scale(0.9);
+        background-image: url(/img/img6.png);
+        background-size: 310px;
+        background-repeat: no-repeat;
     }
     
     .texto-projeto {
@@ -371,14 +540,14 @@
     
     .texto-projeto > h2 {
        font-family: Poppins;
-       font-size: 20px;
+       font-size: 18px;
        color: #000;
        text-align: center;
-       margin-top: 25px;
+       margin-top: 30px;
     }
 
     .progress-bar {
-        width: 100%;
+        width: 90%;
         height: 5px;
         margin-top: 10px;
         border: 1px solid #565656;
