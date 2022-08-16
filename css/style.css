@@ -149,6 +149,7 @@
     background-image: url(/img/img1.png);
     background-size: 620px;
     background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
 }
 
 .cartao-2 {
@@ -163,6 +164,7 @@
     background-image: url(/img/img2.png);
     background-size: 620px;
     background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
 }
 
 .cartao-3 {
@@ -177,6 +179,7 @@
     background-image: url(/img/img3.png);
     background-size: 620px;
     background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
 }
 
 .cartao-4 {
@@ -191,6 +194,7 @@
     background-image: url(/img/img4.png);
     background-size: 620px;
     background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
 }
 
 .cartao-5 {
@@ -205,6 +209,7 @@
     background-image: url(/img/img5.png);
     background-size: 620px;
     background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
 }
 
 .cartao-6 {
@@ -219,7 +224,40 @@
     background-image: url(/img/img6.png);
     background-size: 620px;
     background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
 }
+
+.cartao-1:hover {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    cursor: move;
+  }
+  .cartao-2:hover {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    cursor: move;
+  }
+  .cartao-3:hover {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    cursor: move;
+  }
+  .cartao-4:hover {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    cursor: move;
+  }
+
+  .cartao-5:hover {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    cursor: move;
+  }
+  .cartao-6:hover {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    cursor: move;
+  }
 
 .texto-projeto {
     background: #fff;
