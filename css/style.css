@@ -118,10 +118,12 @@
     color: #fff;
     letter-spacing: 1px;
     text-decoration: none;
+    margin-bottom: 35px;
 }
 
 .projeto a:hover {
     text-decoration: underline;
+    color: #fff;
 }
 
 .div-cartao {
@@ -230,36 +232,30 @@
 .cartao-1:hover {
     transform: scale(1);
     transition: all 0.3s ease-in-out;
-    cursor: move;
   }
   .cartao-2:hover {
     transform: scale(1);
     transition: all 0.3s ease-in-out;
-    cursor: move;
   }
   .cartao-3:hover {
     transform: scale(1);
     transition: all 0.3s ease-in-out;
-    cursor: move;
   }
   .cartao-4:hover {
     transform: scale(1);
     transition: all 0.3s ease-in-out;
-    cursor: move;
   }
 
   .cartao-5:hover {
     transform: scale(1);
     transition: all 0.3s ease-in-out;
-    cursor: move;
   }
   .cartao-6:hover {
     transform: scale(1);
     transition: all 0.3s ease-in-out;
-    cursor: move;
   }
 
-.texto-projeto {
+  .texto-projeto {
     background: #fff;
     position: fixed;
     bottom: 0;
@@ -268,12 +264,17 @@
     height: 100px;
 }
 
-.texto-projeto > h2 {
+.texto-projeto a {
    font-family: Poppins;
-   font-size: 25px;
+   font-size: 30px;
    color: #000;
    text-align: center;
-   margin-top: 30px;
+   margin-top: 25px;
+}
+
+.texto-projeto a:hover {
+   color: #000;
+   text-decoration: none;
 }
 
 .texto-projeto p {
@@ -286,10 +287,10 @@
 
 .skills {
     margin-top: 120px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
-.titulo-skills{
+.titulo-skills h2{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -319,6 +320,7 @@
     border: 1px solid #565656;
     border-radius: 5px;
     box-shadow: 0 0 10px rgb(57, 71, 175);
+    background-color: #fff!important;
 }
 
 .percentage {
@@ -326,7 +328,7 @@
     height: 100%;
     background-color: rgb(57, 71, 175);
     border-radius: 5px;
-    animation: progress 2000ms ease-in;
+    animation: progress 2000ms ease-in 1;
 }
 
 .c {
@@ -357,13 +359,11 @@
     width: 35%;
 }
 
-
 @keyframes progress {
     from {
         width: 0;
     }
 }
-
 /* Footer */
 
 .padding-64{
@@ -576,22 +576,49 @@
         height: 100px;
     }
     
-    .texto-projeto > h2 {
-       font-family: Poppins;
-       font-size: 18px;
-       color: #000;
-       text-align: center;
-       margin-top: 30px;
-    }
-
+    .texto-projeto a {
+        font-family: Poppins;
+        font-size: 22px;
+        color: #000;
+        text-align: center;
+        margin-top: 25px;
+     }
+     
+     .texto-projeto a:hover {
+        color: #000;
+        text-decoration: none;
+     }
     .progress-bar {
-        width: 90%;
+        width: 80%;
         height: 5px;
         margin-top: 10px;
         border: 1px solid #565656;
         border-radius: 5px;
         box-shadow: 0 0 10px rgb(57, 71, 175);
         background-color: #fff!important;
+        margin-left: 20px;
+    }
+
+    .progress-bar-container h2 {
+        font-family: Poppins;
+        font-weight: 500;
+        color: #000;
+        letter-spacing: 1px;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .titulo-skills h2{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: Poppins;
+        font-weight: 500;
+        margin-bottom: 40px;
+        margin-top: 0;
+        color: #000;
+        letter-spacing: 1px;
+        font-size: 22px;
     }
     
 }
