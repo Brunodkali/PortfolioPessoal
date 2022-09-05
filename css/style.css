@@ -229,6 +229,66 @@
     transition: all 0.3s ease-in-out;
 }
 
+.cartao-7 {
+    border-radius: 20px;
+    box-shadow: 0 0 0.2em #000;
+    height: 400px;
+    width: 620px;
+    transition: all 0.5s ease-out;
+    color: aliceblue;
+    text-align: center;
+    transform: scale(0.9);
+    background-image: url(/img/sismed.png);
+    background-size: 620px;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+}
+
+.cartao-8 {
+    border-radius: 20px;
+    box-shadow: 0 0 0.2em #000;
+    height: 400px;
+    width: 620px;
+    transition: all 0.5s ease-out;
+    color: aliceblue;
+    text-align: center;
+    transform: scale(0.9);
+    background-image: url(/img/blue.png);
+    background-size: 620px;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+}
+
+.cartao-9 {
+    border-radius: 20px;
+    box-shadow: 0 0 0.2em #000;
+    height: 400px;
+    width: 620px;
+    transition: all 0.5s ease-out;
+    color: aliceblue;
+    text-align: center;
+    transform: scale(0.9);
+    background-image: url(/img/chatbot.png);
+    background-size: 650px;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+}
+
+.cartao-10 {
+    border-radius: 20px;
+    box-shadow: 0 0 0.2em #000;
+    height: 400px;
+    width: 620px;
+    transition: all 0.5s ease-out;
+    color: aliceblue;
+    text-align: center;
+    transform: scale(0.9);
+    background-image: url(/img/Sem\ título.png);
+    background-size: 620px;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+}
+
 .cartao-1:hover {
     transform: scale(1);
     transition: all 0.3s ease-in-out;
@@ -251,6 +311,24 @@
     transition: all 0.3s ease-in-out;
   }
   .cartao-6:hover {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+  }
+  .cartao-7:hover {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+  }
+  .cartao-8:hover {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .cartao-9:hover {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .cartao-10:hover {
     transform: scale(1);
     transition: all 0.3s ease-in-out;
   }
@@ -565,6 +643,66 @@
         background-image: url(/img/img6.png);
         background-size: 310px;
         background-repeat: no-repeat;
+    }
+
+    .cartao-7 {
+        border-radius: 20px;
+        box-shadow: 0 0 0.2em #000;
+        height: 250px;
+        width: 310px;
+        transition: all 0.5s ease-out;
+        color: aliceblue;
+        text-align: center;
+        transform: scale(0.9);
+        background-image: url(/img/sismed.png);
+        background-size: 310px;
+        background-repeat: no-repeat;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .cartao-8 {
+        border-radius: 20px;
+        box-shadow: 0 0 0.2em #000;
+        height: 250px;
+        width: 310px;
+        transition: all 0.5s ease-out;
+        color: aliceblue;
+        text-align: center;
+        transform: scale(0.9);
+        background-image: url(/img/blue.png);
+        background-size: 310px;
+        background-repeat: no-repeat;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .cartao-9 {
+        border-radius: 20px;
+        box-shadow: 0 0 0.2em #000;
+        height: 250px;
+        width: 310px;
+        transition: all 0.5s ease-out;
+        color: aliceblue;
+        text-align: center;
+        transform: scale(0.9);
+        background-image: url(/img/chatbot.png);
+        background-size: 330px;
+        background-repeat: no-repeat;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .cartao-10 {
+        border-radius: 20px;
+        box-shadow: 0 0 0.2em #000;
+        height: 250px;
+        width: 310px;
+        transition: all 0.5s ease-out;
+        color: aliceblue;
+        text-align: center;
+        transform: scale(0.9);
+        background-image: url(/img/Sem\ título.png);
+        background-size: 310px;
+        background-repeat: no-repeat;
+        transition: all 0.3s ease-in-out;
     }
     
     .texto-projeto {
