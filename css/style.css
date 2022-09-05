@@ -333,6 +333,50 @@
     transition: all 0.3s ease-in-out;
   }
 
+.cartao-1:focus {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+  }
+  .cartao-2:focus {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+  }
+  .cartao-3:focus {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+  }
+  .cartao-4:focus {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .cartao-5:focus {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+  }
+  .cartao-6:focus {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+  }
+  .cartao-7:focus {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+  }
+  .cartao-8:focus {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .cartao-9:focus {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .cartao-10:focus {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+  }
+
   .texto-projeto {
     background: #fff;
     position: fixed;
