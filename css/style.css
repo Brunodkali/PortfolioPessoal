@@ -133,7 +133,7 @@
 
 .div-cartao-alinhamento {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     margin-right: 50px;
     margin-left: 50px;
@@ -285,6 +285,35 @@
     transform: scale(0.9);
     background-image: url(/img/Sem\ título.png);
     background-size: 620px;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+}
+.cartao-11 {
+    border-radius: 20px;
+    box-shadow: 0 0 0.2em #000;
+    height: 400px;
+    width: 620px;
+    transition: all 0.5s ease-out;
+    color: aliceblue;
+    text-align: center;
+    transform: scale(0.9);
+    background-image: url(/img/direito.png);
+    background-size: 650px;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+}
+
+.cartao-12 {
+    border-radius: 20px;
+    box-shadow: 0 0 0.2em #000;
+    height: 400px;
+    width: 620px;
+    transition: all 0.5s ease-out;
+    color: aliceblue;
+    text-align: center;
+    transform: scale(0.9);
+    background-image: url(/img/Component\ 9.png);
+    background-size: cover;
     background-repeat: no-repeat;
     transition: all 0.3s ease-in-out;
 }
