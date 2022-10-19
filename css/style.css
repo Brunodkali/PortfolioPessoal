@@ -495,7 +495,7 @@
 }
 
 .reactjs {
-    width: 53%;
+    width: 35%;
 }
 
 .css {
@@ -507,7 +507,11 @@
 }
 
 .php {
-    width: 35%;
+    width: 50%;
+}
+
+.python {
+    width: 30%;
 }
 
 @keyframes progress {
