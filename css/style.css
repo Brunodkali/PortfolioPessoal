@@ -223,7 +223,7 @@
     color: aliceblue;
     text-align: center;
     transform: scale(0.9);
-    background-image: url(/img/img6.png);
+    background-image: url(/img/land.png);
     background-size: 620px;
     background-repeat: no-repeat;
     transition: all 0.3s ease-in-out;
@@ -437,31 +437,57 @@
 }
 
 .skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin-top: 120px;
     margin-bottom: 100px;
 }
 
-.titulo-skills h2{
+.badges {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.badges img {
+    margin: 20px;
+}
+
+.titulo-skills h2 {
     display: flex;
     justify-content: center;
     text-align: center;
     font-family: Poppins;
     font-weight: 500;
+    font-size: 25px;
     margin-bottom: 20px;
     color: #000;
     letter-spacing: 1px;
 }
 
-.progress-bar-container:not(:last-child) {
-    margin-bottom: 50px;
-}
-
-.progress-bar-container h2 {
+.titulo-skills a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-family: Poppins;
+    font-size: 20px;
     font-weight: 500;
+    margin-bottom: 20px;
     color: #000;
     letter-spacing: 1px;
-    font-size: 20px;
+    text-decoration: none;
+}
+
+.titulo-skills a:hover {
+    text-decoration: underline;
+}
+
+.progress-bar-container:not(:last-child) {
+    margin-bottom: 50px;
 }
 
 .progress-bar {
@@ -483,35 +509,43 @@
 }
 
 .c {
-    width: 30%;
-}
-
-.bootstrap {
-    width: 50%;
-}
-
-.nodejs {
-    width: 40%;
-}
-
-.reactjs {
-    width: 35%;
-}
-
-.css {
-    width: 85%;
-}
-
-.javascript {
     width: 60%;
 }
 
+.bootstrap {
+    width: 49%;
+}
+
+.nodejs {
+    width: 75%;
+}
+
+.css {
+    width: 80%;
+}
+
+.javascript {
+    width: 72%;
+}
+
 .php {
-    width: 50%;
+    width: 40%;
 }
 
 .python {
     width: 30%;
+}
+
+.electron {
+    width: 30%;
+}
+
+.linux {
+    width: 50%;
+}
+
+.git {
+    width: 60%;
 }
 
 @keyframes progress {
@@ -519,6 +553,7 @@
         width: 0;
     }
 }
+
 /* Footer */
 
 .padding-64{
@@ -566,6 +601,7 @@
     margin-bottom: 20px;
     margin-top: 10px;
 }
+
 @media screen and (max-width: 1024px) {
     .navbar {
         background-color: #fff;
@@ -717,7 +753,7 @@
         color: aliceblue;
         text-align: center;
         transform: scale(0.9);
-        background-image: url(/img/img6.png);
+        background-image: url(/img/land.png);
         background-size: 310px;
         background-repeat: no-repeat;
     }
@@ -803,6 +839,7 @@
         color: #000;
         text-decoration: none;
      }
+     
     .progress-bar {
         width: 80%;
         height: 5px;
@@ -814,19 +851,15 @@
         margin-left: 20px;
     }
 
-    .progress-bar-container h2 {
-        font-family: Poppins;
-        font-weight: 500;
-        color: #000;
-        letter-spacing: 1px;
-        font-size: 18px;
-        margin-left: 20px;
+    .progress-bar-container img {
+        margin-left: 25px;
     }
 
     .titulo-skills h2{
         display: flex;
         justify-content: center;
         text-align: center;
+        font-size: 15px;
         font-family: Poppins;
         font-weight: 500;
         margin-bottom: 40px;
@@ -836,5 +869,8 @@
         font-size: 22px;
     }
     
+    .titulo-skills a {
+        font-size: 16px;
+    }
 }
 
