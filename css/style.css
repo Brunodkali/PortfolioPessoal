@@ -513,23 +513,23 @@
 }
 
 .bootstrap {
-    width: 49%;
+    width: 50%;
 }
 
 .nodejs {
-    width: 75%;
+    width: 70%;
 }
 
 .css {
-    width: 80%;
+    width: 75%;
 }
 
 .javascript {
-    width: 72%;
+    width: 70%;
 }
 
 .php {
-    width: 40%;
+    width: 50%;
 }
 
 .python {
@@ -537,15 +537,15 @@
 }
 
 .electron {
-    width: 30%;
+    width: 35%;
 }
 
 .linux {
-    width: 50%;
+    width: 55%;
 }
 
 .git {
-    width: 60%;
+    width: 50%;
 }
 
 @keyframes progress {
