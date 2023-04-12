@@ -142,14 +142,14 @@
 .cartao-1 {
     border-radius: 20px;
     box-shadow: 0 0 0.2em #000;
-    height: 400px;
-    width: 620px;
+    height: 500px;
+    width: 500px;
     transition: all 0.5s ease-out;
     color: aliceblue;
     text-align: center;
     transform: scale(0.9);
-    background-image: url(/img/img1.png);
-    background-size: 620px;
+    background-image: url(/img/land.png);
+    background-size: cover;
     background-repeat: no-repeat;
     transition: all 0.3s ease-in-out;
 }
@@ -157,14 +157,14 @@
 .cartao-2 {
     border-radius: 20px;
     box-shadow: 0 0 0.2em #000;
-    height: 400px;
-    width: 620px;
+    height: 390px;
+    width: 600px;
     transition: all 0.5s ease-out;
     color: aliceblue;
     text-align: center;
     transform: scale(0.9);
-    background-image: url(/img/img2.png);
-    background-size: 620px;
+    background-image: url(/img/unifisio.png);
+    background-size: contain;
     background-repeat: no-repeat;
     transition: all 0.3s ease-in-out;
 }
@@ -172,14 +172,14 @@
 .cartao-3 {
     border-radius: 20px;
     box-shadow: 0 0 0.2em #000;
-    height: 400px;
-    width: 620px;
+    height: 500px;
+    width: 400px;
     transition: all 0.5s ease-out;
     color: aliceblue;
     text-align: center;
     transform: scale(0.9);
-    background-image: url(/img/img3.png);
-    background-size: 620px;
+    background-image: url(/img/busca_beer.jpg);
+    background-size: 400px;
     background-repeat: no-repeat;
     transition: all 0.3s ease-in-out;
 }
@@ -187,14 +187,14 @@
 .cartao-4 {
     border-radius: 20px;
     box-shadow: 0 0 0.2em #000;
-    height: 400px;
-    width: 620px;
+    height: 500px;
+    width: 400px;
     transition: all 0.5s ease-out;
     color: aliceblue;
     text-align: center;
     transform: scale(0.9);
-    background-image: url(/img/img4.png);
-    background-size: 620px;
+    background-image: url(/img/ache_vinho.jpg);
+    background-size: 400px;
     background-repeat: no-repeat;
     transition: all 0.3s ease-in-out;
 }
@@ -202,14 +202,14 @@
 .cartao-5 {
     border-radius: 20px;
     box-shadow: 0 0 0.2em #000;
-    height: 400px;
-    width: 620px;
+    height: 500px;
+    width: 500px;
     transition: all 0.5s ease-out;
     color: aliceblue;
     text-align: center;
     transform: scale(0.9);
-    background-image: url(/img/img5.png);
-    background-size: 620px;
+    background-image: url(/img/sismed.png);
+    background-size: cover;
     background-repeat: no-repeat;
     transition: all 0.3s ease-in-out;
 }
@@ -217,213 +217,80 @@
 .cartao-6 {
     border-radius: 20px;
     box-shadow: 0 0 0.2em #000;
-    height: 400px;
-    width: 620px;
+    height: 390px;
+    width: 600px;
     transition: all 0.5s ease-out;
     color: aliceblue;
     text-align: center;
     transform: scale(0.9);
-    background-image: url(/img/land.png);
-    background-size: 620px;
+    background-image: url(/img/img1.png);
+    background-size: contain;
     background-repeat: no-repeat;
     transition: all 0.3s ease-in-out;
 }
 
-.cartao-7 {
-    border-radius: 20px;
-    box-shadow: 0 0 0.2em #000;
-    height: 400px;
-    width: 620px;
-    transition: all 0.5s ease-out;
-    color: aliceblue;
-    text-align: center;
-    transform: scale(0.9);
-    background-image: url(/img/sismed.png);
-    background-size: 620px;
-    background-repeat: no-repeat;
+.cartao-1:hover,
+.cartao-2:hover,
+.cartao-3:hover,
+.cartao-4:hover,
+.cartao-5:hover,
+.cartao-6:hover {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.cartao-1:focus,
+.cartao-2:focus,
+.cartao-3:focus,
+.cartao-4:focus,
+.cartao-5:focus,
+.cartao-6:focus {
+    transform: scale(1);
     transition: all 0.3s ease-in-out;
 }
 
-.cartao-8 {
-    border-radius: 20px;
-    box-shadow: 0 0 0.2em #000;
-    height: 400px;
-    width: 620px;
-    transition: all 0.5s ease-out;
-    color: aliceblue;
-    text-align: center;
-    transform: scale(0.9);
-    background-image: url(/img/blue.png);
-    background-size: 620px;
-    background-repeat: no-repeat;
-    transition: all 0.3s ease-in-out;
-}
-
-.cartao-9 {
-    border-radius: 20px;
-    box-shadow: 0 0 0.2em #000;
-    height: 400px;
-    width: 620px;
-    transition: all 0.5s ease-out;
-    color: aliceblue;
-    text-align: center;
-    transform: scale(0.9);
-    background-image: url(/img/chatbot.png);
-    background-size: 650px;
-    background-repeat: no-repeat;
-    transition: all 0.3s ease-in-out;
-}
-
-.cartao-10 {
-    border-radius: 20px;
-    box-shadow: 0 0 0.2em #000;
-    height: 400px;
-    width: 620px;
-    transition: all 0.5s ease-out;
-    color: aliceblue;
-    text-align: center;
-    transform: scale(0.9);
-    background-image: url(/img/Sem\ título.png);
-    background-size: 620px;
-    background-repeat: no-repeat;
-    transition: all 0.3s ease-in-out;
-}
-.cartao-11 {
-    border-radius: 20px;
-    box-shadow: 0 0 0.2em #000;
-    height: 400px;
-    width: 620px;
-    transition: all 0.5s ease-out;
-    color: aliceblue;
-    text-align: center;
-    transform: scale(0.9);
-    background-image: url(/img/direito.png);
-    background-size: 650px;
-    background-repeat: no-repeat;
-    transition: all 0.3s ease-in-out;
-}
-
-.cartao-12 {
-    border-radius: 20px;
-    box-shadow: 0 0 0.2em #000;
-    height: 400px;
-    width: 620px;
-    transition: all 0.5s ease-out;
-    color: aliceblue;
-    text-align: center;
-    transform: scale(0.9);
-    background-image: url(/img/Component\ 9.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all 0.3s ease-in-out;
-}
-
-.cartao-1:hover {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-  .cartao-2:hover {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-  .cartao-3:hover {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-  .cartao-4:hover {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .cartao-5:hover {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-  .cartao-6:hover {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-  .cartao-7:hover {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-  .cartao-8:hover {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .cartao-9:hover {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .cartao-10:hover {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-
-.cartao-1:focus {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-  .cartao-2:focus {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-  .cartao-3:focus {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-  .cartao-4:focus {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .cartao-5:focus {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-  .cartao-6:focus {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-  .cartao-7:focus {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-  .cartao-8:focus {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .cartao-9:focus {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .cartao-10:focus {
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .texto-projeto {
+.texto-projeto {
     background: #fff;
     position: fixed;
     bottom: 0;
-    width: 620px;
+    width: 600px;
     border-radius: 0 0 20px 20px;
     height: 100px;
 }
 
-.texto-projeto a {
-   font-family: Poppins;
-   font-size: 30px;
-   color: #000;
-   text-align: center;
-   margin-top: 25px;
+.texto-projeto-alt {
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 500px;
+    border-radius: 0 0 20px 20px;
+    height: 100px;
 }
 
-.texto-projeto a:hover {
+.texto-projeto-apps {
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 400px;
+    border-radius: 0 0 20px 20px;
+    height: 100px;
+}
+
+.texto-projeto a,
+.texto-projeto-apps a,
+.texto-projeto-alt a {
+    font-family: Poppins;
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.texto-projeto a:hover,
+.texto-projeto-alt a:hover,
+.texto-projeto-apps a:hover {
    color: #000;
    text-decoration: none;
 }
@@ -509,7 +376,7 @@
 }
 
 .c {
-    width: 60%;
+    width: 55%;
 }
 
 .bootstrap {
@@ -521,7 +388,7 @@
 }
 
 .css {
-    width: 75%;
+    width: 70%;
 }
 
 .javascript {
@@ -529,7 +396,7 @@
 }
 
 .php {
-    width: 50%;
+    width: 65%;
 }
 
 .python {
@@ -546,6 +413,10 @@
 
 .git {
     width: 50%;
+}
+
+.flutter {
+    width: 30%;
 }
 
 @keyframes progress {
@@ -645,8 +516,7 @@
         font-family: Poppins;
         width: 330px;
         margin-top: 20px;
-        text-align: justify;
-        margin-bottom: 100px;
+        text-align: justify;    
         margin-left: 20px;
         font-size: 15px;
     }
@@ -683,7 +553,7 @@
         color: aliceblue;
         text-align: center;
         transform: scale(0.9);
-        background-image: url(/img/img1.png);
+        background-image: url(/img/land.png);
         background-size: 310px;
         background-repeat: no-repeat;
     }
@@ -697,7 +567,7 @@
         color: aliceblue;
         text-align: center;
         transform: scale(0.9);
-        background-image: url(/img/img2.png);
+        background-image: url(/img/unifisio.png);
         background-size: 310px;
         background-repeat: no-repeat;
     }
@@ -711,7 +581,7 @@
         color: aliceblue;
         text-align: center;
         transform: scale(0.9);
-        background-image: url(/img/img3.png);
+        background-image: url(/img/busca_beer.jpg);
         background-size: 310px;
         background-repeat: no-repeat;
     }
@@ -725,7 +595,7 @@
         color: aliceblue;
         text-align: center;
         transform: scale(0.9);
-        background-image: url(/img/img4.png);
+        background-image: url(/img/ache_vinho.jpg);
         background-size: 310px;
         background-repeat: no-repeat;
     }
@@ -739,7 +609,7 @@
         color: aliceblue;
         text-align: center;
         transform: scale(0.9);
-        background-image: url(/img/img5.png);
+        background-image: url(/img/sismed.png);
         background-size: 310px;
         background-repeat: no-repeat;
     }
@@ -753,69 +623,9 @@
         color: aliceblue;
         text-align: center;
         transform: scale(0.9);
-        background-image: url(/img/land.png);
+        background-image: url(/img/img1.png);
         background-size: 310px;
         background-repeat: no-repeat;
-    }
-
-    .cartao-7 {
-        border-radius: 20px;
-        box-shadow: 0 0 0.2em #000;
-        height: 250px;
-        width: 310px;
-        transition: all 0.5s ease-out;
-        color: aliceblue;
-        text-align: center;
-        transform: scale(0.9);
-        background-image: url(/img/sismed.png);
-        background-size: 310px;
-        background-repeat: no-repeat;
-        transition: all 0.3s ease-in-out;
-    }
-    
-    .cartao-8 {
-        border-radius: 20px;
-        box-shadow: 0 0 0.2em #000;
-        height: 250px;
-        width: 310px;
-        transition: all 0.5s ease-out;
-        color: aliceblue;
-        text-align: center;
-        transform: scale(0.9);
-        background-image: url(/img/blue.png);
-        background-size: 310px;
-        background-repeat: no-repeat;
-        transition: all 0.3s ease-in-out;
-    }
-    
-    .cartao-9 {
-        border-radius: 20px;
-        box-shadow: 0 0 0.2em #000;
-        height: 250px;
-        width: 310px;
-        transition: all 0.5s ease-out;
-        color: aliceblue;
-        text-align: center;
-        transform: scale(0.9);
-        background-image: url(/img/chatbot.png);
-        background-size: 330px;
-        background-repeat: no-repeat;
-        transition: all 0.3s ease-in-out;
-    }
-    
-    .cartao-10 {
-        border-radius: 20px;
-        box-shadow: 0 0 0.2em #000;
-        height: 250px;
-        width: 310px;
-        transition: all 0.5s ease-out;
-        color: aliceblue;
-        text-align: center;
-        transform: scale(0.9);
-        background-image: url(/img/Sem\ título.png);
-        background-size: 310px;
-        background-repeat: no-repeat;
-        transition: all 0.3s ease-in-out;
     }
     
     .texto-projeto {
@@ -825,6 +635,36 @@
         width: 310px;
         border-radius: 0 0 20px 20px;
         height: 100px;
+    }
+
+    .texto-projeto-alt {
+        background: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 310px;
+        border-radius: 0 0 20px 20px;
+        height: 100px;
+    }
+    
+    .texto-projeto-apps {
+        background: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 310px;
+        border-radius: 0 0 20px 20px;
+        height: 100px;
+    }
+    
+
+    .texto-projeto a,
+    .texto-projeto-apps a,
+    .texto-projeto-alt a {
+        font-family: Poppins;
+        font-size: 22px;
+        color: #000;
+        text-align: center;
+        align-items: center;
+        margin-top: 25px;
     }
     
     .texto-projeto a {
